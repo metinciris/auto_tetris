@@ -55,6 +55,10 @@ A modern, visually appealing Tetris game implemented as a screen saver using Pyt
   - `TOP_OFFSET = GRID_SIZE * 6`: Vertical offset for the game board to ensure proper positioning.
 - **High Score Persistence**: Scores are saved in `high_scores.json` with timestamps, maintaining up to 25 daily and all-time entries.
 
+## Inspiration
+
+This project was inspired by [henryzt/Tetris-Auto-Play](https://github.com/henryzt/Tetris-Auto-Play), which provided a foundation for the autoplay algorithm and game mechanics. This implementation extends the original concept by adding a screen saver mode, a modernized UI, and high score tracking, while optimizing for non-intrusive background operation.
+
 ## Notes
 
 - The screen saver is designed to run unobtrusively, staying behind active windows (e.g., YouTube videos) without stealing focus.
