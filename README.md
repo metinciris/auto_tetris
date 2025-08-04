@@ -5,7 +5,6 @@ A modern, visually appealing Tetris game implemented as a screen saver using Pyt
 
 ## Features
 
-- **Classic Tetris Gameplay**: Implements the traditional Tetris mechanics with seven unique block shapes (I, J, L, O, S, T, Z) and standard scoring for cleared lines.
 - **AI Autoplay**: Includes an intelligent `AutoPlayer` that uses a heuristic-based algorithm to make optimal moves, considering factors like smoothness, total height, holes, and completed lines.
 - **High Score System**: Tracks and displays daily and all-time high scores, stored persistently in a `high_scores.json` file.
 - **Fullscreen Display**: Runs in fullscreen mode with a dark theme, centered game board, and clear visual styling for blocks and UI elements.
@@ -15,14 +14,6 @@ A modern, visually appealing Tetris game implemented as a screen saver using Pyt
 
 ## Controls
 
-- **Spacebar**: Drop the current block instantly.
-- **A**: Move the block left.
-- **S**: Move the block right.
-- **K**: Rotate the block counterclockwise.
-- **L**: Rotate the block clockwise.
-- **Y**: Toggle autoplay on/off.
-- **R**: Restart the game.
-- **Q**: Quit the screen saver.
 - **Any Key/Mouse Movement**: Exit the screen saver.
 
 ## Installation
